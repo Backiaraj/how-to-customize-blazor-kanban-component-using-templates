@@ -1,22 +1,14 @@
 # Customize the Blazor Kanban Component Using Templates
 
-A small Blazor sample showing how to customize the Syncfusion Kanban component with templates for headers, swimlanes, and cards. Use the examples in this project to learn how to inject custom markup and data bindings into Kanban UI elements.
+A small Blazor sample showing how to customize the [Blazor Kanban](https://www.syncfusion.com/gantt-sdk/blazor-kanban-board) component with templates for headers, swimlanes, and cards. Use the examples in this project to learn how to inject custom markup and data bindings into Kanban UI elements.
 
 ## Overview
 
-This sample demonstrates three template types supported by the Syncfusion Kanban component:
+This sample demonstrates three template types supported by the Blazor Kanban component:
 
 - Header templates — customize column headers
 - Card templates — customize card appearance and data fields
 - Swimlane templates — customize swimlane row rendering
-
-Documentation:
-
-- Header Template: https://blazor.syncfusion.com/documentation/kanban/columns#header-template
-- Card Template: https://blazor.syncfusion.com/documentation/kanban/cards#template
-- Swimlane Template: https://blazor.syncfusion.com/documentation/kanban/swimlane#template
-
-Online samples: https://blazor.syncfusion.com/demos/kanban/header-template?theme=bootstrap4
 
 ## Features
 
@@ -24,24 +16,47 @@ Online samples: https://blazor.syncfusion.com/demos/kanban/header-template?theme
 - Examples of data-binding within templates
 - Guidance on combining templates with drag/drop and board configuration
 
-## Prerequisites
+## Getting Started
 
-- Visual Studio 2022 (or later)
-- The .NET SDK required by the solution
+### Prerequisites
 
-## Run the project
+* [.NET SDK 10.0](https://dotnet.microsoft.com/en-us/download/dotnet/10.0) or later
+* [Visual Studio 2022](https://visualstudio.microsoft.com/vs/) or later
+* [Visual Studio Code](https://code.visualstudio.com/)
 
-1. Clone the repository to a local folder.
-2. Open the solution in Visual Studio 2022.
-3. Restore NuGet packages by rebuilding the solution or run `dotnet restore`.
-4. Build and run the project from Visual Studio.
+### Clone the repository
 
-Optional CLI commands:
-
-```powershell
-dotnet restore
-dotnet build
+```bash
+git clone https://github.com/SyncfusionExamples/how-to-customize-blazor-kanban-component-using-templates.git
+cd how-to-customize-blazor-kanban-component-using-templates
 ```
+
+### Run with Visual Studio
+
+1. Open the solution file using Visual Studio 2022 or later.
+2. Restore the NuGet packages by rebuilding the solution.
+3. Build the project to ensure there are no compilation errors.
+4. Run the project.
+
+### Run with .NET CLI
+
+```bash
+# Restore dependencies
+dotnet restore
+
+# Run the project
+dotnet run
+```
+
+## References
+
+**Documentation**:
+
+- **Header Template**: https://help.syncfusion.com/gantt-sdk/blazor/kanban/columns#header-template
+- **Card Template**: https://help.syncfusion.com/gantt-sdk/blazor/kanban/cards
+- **Swimlane Template**: https://help.syncfusion.com/gantt-sdk/blazor/kanban/swimlane#template
+
+**Online samples**: https://blazor.syncfusion.com/demos/kanban/header-template?theme=fluent2
 
 ## Troubleshooting & support
 
